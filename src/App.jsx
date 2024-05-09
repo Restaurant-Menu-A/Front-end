@@ -15,8 +15,8 @@ function App() {
       <div className='App'>
         <NavBar/>
           <Routes>
-            <Route path='/plainteClient' element={<PlainteClient />}/>
-            <Route path='/plainteGerant' element={<PlaintGerant />}/>
+            <Route path="/Client" element={<PlainteClient/>}/>
+            <Route path='/plainteGerant' element={<PlaintGerant/>}/>
 
           </Routes>
       </div>
